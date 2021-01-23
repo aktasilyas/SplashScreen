@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="712.0" style="-fx-background-color: #00a75f;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="logoLabel" alignment="CENTER" layoutX="312.0" layoutY="116.0" prefHeight="88.0" prefWidth="89.0" style="-fx-background-color: #fff; -fx-background-radius: 50px;" text="M" textFill="#00a75f">
+         <font>
+            <Font name="Microsoft JhengHei UI Light" size="39.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="305.0" layoutY="210.0" text="APP NAME" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Bauhaus 93" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="helloLabel" layoutX="271.0" layoutY="240.0" prefHeight="38.0" prefWidth="172.0" text="HELLO THERE! , WELCOME TO MY APPLICATION" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+         <font>
+            <Font name="Microsoft YaHei UI Light" size="12.0" />
+         </font>
+      </Label>
+      <Pane fx:id="spinnerPane" layoutX="256.0" layoutY="278.0" prefHeight="200.0" prefWidth="200.0" visible="false">
+         <children>
+            <JFXSpinner layoutX="66.0" layoutY="32.0" radius="30.0" />
+            <Label layoutX="50.0" layoutY="114.0" prefHeight="38.0" prefWidth="114.0" text="WAIT A FEW SECONDS" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
